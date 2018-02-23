@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <title>第５回インタラ会</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style type="text/css">
+      * {
+        box-sizing: border-box;
+      }
+      body, html {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .mv {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: #1b2920;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .text {
+        font-size: 0;
+        font-style: italic;
+        color: #FFF;
+      }
+      .text span {
+        font-size: 12vw;
+        display: inline-block;
+        text-decoration: underline;
+      }
+      .dummy_height {
+        position: absolute;
+        top:5000px;
+        width: 1px;
+        height: 1px;
+      }
+      .attention {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        letter-spacing: 0.05em;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="mv">
+      <p class="text"><span>i</span><span>n</span><span>t</span><span>e</span><span>r</span><span>a</span><span>c</span><span>t</span><span>i</span><span>v</span><span>e</span></p>
+    </div>
+
+    <div class="attention"><p>SCROLL</p></div>
+
+    <div class="dummy_height"></div>
+
+    <script src="../libs/jquery.min.js"></script>
+    <script src="../libs/TweenMax.js"></script>
+    <script src="../libs/isMobile.min.js"></script>
+    <script src="../libs/chroma.min.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
